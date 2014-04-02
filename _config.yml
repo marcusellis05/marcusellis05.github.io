@@ -1,3 +1,10 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+title:        'Marcus Ellis'
+tagline:      'Marcus Ellis | Front End Web Developer'
+description:  'Front End Web Developer'
+url:          http://marcusellis05.github.io
+author:
+  name:       'Marcus Ellis'
+  email:      'marcusellis05@gmail.com'
+permalink:    pretty
+pygments:     true
+paginate:     5
