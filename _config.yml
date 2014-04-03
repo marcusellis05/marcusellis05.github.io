@@ -5,6 +5,7 @@ url:          http://marcusellis05.github.io
 author:
   name:       'Marcus Ellis'
   email:      'marcusellis05@gmail.com'
+markdown:     redcarpet
 permalink:    pretty
 pygments:     true
 paginate:     5
