@@ -15,13 +15,11 @@ I ran into this issue at work.  I've created a project scaffold using Node, Back
 
 My idea to solve this problem was to put related tasks into individual files and place those files in a specific folder.  If my solution was going to be useful to anyone else, it needed to be configurable.  I figured I should use the [globule](https://www.npmjs.org/package/globule) module to make it easier to configure which files to use and I was already using [load-grunt-tasks](https://www.npmjs.org/package/load-grunt-tasks) to automatically load Grunt plugins so I figured I should bake that in too.
 
-Anyhow, I think it's a pretty elegant solution. It's got pretty good documentation, so I won't cover all that.  There's also a good [example setup](https://github.com/marcusellis05/grunt-tasks/tree/master/example) in the Github project as well.
+It does a "pseudo-merge" of the task definitions in those files. The merge isn't recursive.  It's built to let you have the same plugin configured in 2 different files.  For example, you could have a "concat:css" task defined in one file and a "concat:js" task in another.  As long as the "subtask" name is different, there won't be a collision and both will be callable.
+
+Anyhow, I think it's a pretty simple yet elegant solution. It's got decent documentation, so I won't cover all the configuration options.  There's also a good [example setup](https://github.com/marcusellis05/grunt-tasks/tree/master/example) in the Github project, so check that out if this post made no sense.
 
 If you like this idea but are looking for a more robust solution, you may be interested in [PintJS](http://www.pintjs.com).  It more or less wraps Grunt, and it allows you to modularize your code and run tasks concurrently.
-
-### Installation
-
-    $ npm install grunt-tasks --save-dev
 
 ### Ideas? Issues?
 
