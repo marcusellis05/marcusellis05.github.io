@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FeOpsConf Day 1
+title: FeOpsConf Notes, Day 1
 published: true
 ---
 
@@ -153,3 +153,85 @@ The art of testing the cascade.  CSS is declarative language so it must be teste
 
 * csste.st - collection of current techniques and tools available for CSS testing
 * hardy.io - based on selenium, uses gherkin syntax, checks copmuted style.
+
+------
+
+## Fearless Browser Test Automation
+
+*John David, Dalton, Microsoft*
+
+Manual testing is craxy hard. Lots of browsers, variations, versions, etc.
+
+Browser Test Automation Options:
+
+* Sauce Labs
+* Testling
+
+Make the CI server do everything.
+
+Lodash uses Travis CI, SauceLabs, coveralls.io, Istanbul, QUnit, QUnit Extras.
+
+**npm deps**
+
+* chalk
+* ecstatic
+* request
+* sauce-tunnel(-sc3-1)
+
+** The cool**
+
+* IE compat mode
+* Concurrent tunnels
+* Automatic retries
+* Tailored platforms
+* QUnit extras
+
+------
+
+## Performance Testing for Android Web Apps
+
+*Jonathan Lipps, SauceLabs*
+
+[Appium](http://appium.io) is a mobile test automation framework. Supports real devices, simulators and can test native, hybrid and web apps. Uses native automation capabilities of mobile platforms. Uses a Selenium WebDriver interface to connect to the various automation frameworks. Can be installed and run with:
+
+    npm install -g appium && appium
+
+[http://github.com/jlipps/chrome-ops](http://github.com/jlipps/chrome-ops)
+
+Automated testing prevents...
+
+* Regressions in functionality
+* Regressions in performance
+
+Automated testing provides...
+
+* Explicit specification of functionality
+* Explicit specification of performance
+
+You can use appium with Sauce Labs.
+
+------
+
+## Taking Development Tools to the Next Level
+
+*Robert Haritonov, OK.ru*
+
+
+
+------
+
+## Adding Rendering Metrics to Browser Performance Lab
+
+*Parashuram Narasimhan, Microsoft*
+
+------
+
+## Customers Love the Product, Let's Keep it that Way!
+
+*Dusty Jewett, Simply Measured*
+
+------
+
+## Web Performance Engineers - The Hunt for the Mythical Beast
+
+*Tobias Baldauf, Akamai*

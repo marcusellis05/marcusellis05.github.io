@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FeOpsConf Day 2
+title: FeOpsConf Notes, Day 2
 published: false
 ---
 
