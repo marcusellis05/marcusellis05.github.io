@@ -216,7 +216,13 @@ You can use appium with Sauce Labs.
 
 *Robert Haritonov, OK.ru*
 
+[Slides](http://rhr.me/pres/ime)
 
+A good style guide leads to a better UI, more thoughtful design choices, a better performing site and a better performing team.
+
+IME is a living style guide on steroids, a web app on top of the style guide.
+
+[Source](http://sourcejs.com) is a front-end documentation engine.
 
 ------
 
