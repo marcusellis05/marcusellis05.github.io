@@ -134,7 +134,7 @@ But loading is only one piece. Layout and scroll performance matter.
 
 **Tools**
 
-* phantom?s - easy to install, maintain. It has a grunt plugin.
+* [phantomas](https://github.com/macbre/phantomas) - easy to install, maintain. It has a grunt plugin.
 * Chrome Telemetry - Python framework that collects a lot of data tha a browser generates. It's hard to setup. Topcaot uses it.
 
 ### Monkey Testing
@@ -151,8 +151,8 @@ The art of testing the cascade.  CSS is declarative language so it must be teste
 
 **Tools**
 
-* csste.st - collection of current techniques and tools available for CSS testing
-* hardy.io - based on selenium, uses gherkin syntax, checks copmuted style.
+* [csste.st](http://csste.st) - collection of current techniques and tools available for CSS testing
+* [hardy.io](http://hardy.io) - based on selenium, uses gherkin syntax, checks copmuted style.
 
 ------
 
@@ -164,7 +164,7 @@ Manual testing is craxy hard. Lots of browsers, variations, versions, etc.
 
 Browser Test Automation Options:
 
-* Sauce Labs
+* SauceLabs
 * Testling
 
 Make the CI server do everything.
@@ -228,7 +228,24 @@ IME is a living style guide on steroids, a web app on top of the style guide.
 
 ## Adding Rendering Metrics to Browser Performance Lab
 
-*Parashuram Narasimhan, Microsoft*
+*Parashuram Narasimhan, Microsoft Open Technologies*
+
+[Slides](http://nparashuram.com/perfslides/)
+
+Why care about performance? Why does performance degrade?  One commit, aggregate effect of growing codebase, no clue.
+
+3 ways of fixing performance regressions:
+
+1. Rules - minimize and concat, multiple domains for parallelism, rAF
+2. Tools - browser dev tools
+3. Rules + Tools - Yslow, PageSpeed
+
+Measure performance. Record performance data with each deploy. Graph it.
+
+**Tools**
+
+* [browser-perf](https://github.com/axemclion/browser-perf) - record actions, measure with probes and aggregate with metrics
+* [perfjankie](https://github.com/axemclion/perfjankie) - Grunt task to automate testing in browser, save data to CouchDB and generate graphs of metrics over time.
 
 ------
 
