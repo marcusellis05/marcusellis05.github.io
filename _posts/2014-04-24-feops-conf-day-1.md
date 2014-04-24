@@ -43,6 +43,7 @@ Measure performance and tie to commits.
 * Update your dependencies every week.
 * Have a rigorous styleguide and automated linting.
 
+------
 
 ## Performance and Maintainability with Continuous Experimentation
 
@@ -66,10 +67,11 @@ Feature flags can lead to bloat/cruft. As experiments are deactivated, it's impo
 
 Etsy deploys application code 50 times per day.
 
+------
 
 ## Git, CI and Making it Pretty
 
-* Sarah Goff-Dupont, Atlassian
+*Sarah Goff-Dupont, Atlassian*
 
 ### CI & Branching
 
