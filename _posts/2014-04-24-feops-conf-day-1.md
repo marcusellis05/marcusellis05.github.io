@@ -49,13 +49,13 @@ Measure performance and tie to commits.
 
 *Seth Walker, Etsy*
 
-http://sethwalker.me/talks/continuous-experimentation
+[Slides](http://sethwalker.me/talks/continuous-experimentation)
 
 Measure the growth (in files and loc) of codebase. Growth of codebase decreases confidence of developer and increase need of testing.
 
 ### Feature Flags
 
-https://github.com/etsy/feature
+[https://github.com/etsy/feature](https://github.com/etsy/feature)
 
 Configuration driven access to features and library upgrades with staged rollout to users. Internal first, external piece meal.
 
@@ -112,7 +112,7 @@ UglifyJs can do conditional compilation by evaluating global variables.
 
 *Sebastian Golash, Deuthce Telekom*
 
-http://dalekjs.com/
+[http://dalekjs.com/](http://dalekjs.com/)
 
 ### Image Regression
 
