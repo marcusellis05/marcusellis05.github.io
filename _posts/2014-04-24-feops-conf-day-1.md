@@ -98,10 +98,58 @@ Scripts that are run when something happens in your branch. Can run client- or s
 
 Flickr is currently built with PHP, transitioning to Node.js. They are using Express. The reboot stack sits between the web client and the API.
 
-In production they're running on Mnahattan (sorta like Heroku). 1 Manhattan instance is 1 server running 16-32 Node processes.
+In production they're running on Manhattan (sorta like Heroku). 1 Manhattan instance is 1 server running 16-32 Node processes.
 
 They developed a way to bucket users and route them to the new, reboot stack while leaving others on the classic, PHP version of the app.
 
 Apache Traffic Server and cookies to handle routing to classic vs reboot.
 
 UglifyJs can do conditional compilation by evaluating global variables.
+
+------
+
+## The Glitch in the Game
+
+*Sebastian Golash, Deuthce Telekom*
+
+http://dalekjs.com/
+
+### Image Regression
+
+The art of knowing which pixels are allowed to change between builds. Image based diffs. Can be noisy and is difficult to determine the cause of the change.
+
+**Tools**
+
+* wraith
+* grunt-photobox
+* siteeffect.io - can determine what changed and what was only shifted as a side effect of that change. Not released yet.
+
+### Performance Regression
+
+The art of knowing how changes are allowed to affect performance.
+
+You can use HAR files to capture an archive of network performance.
+
+But loading is only one piece. Layout and scroll performance matter.
+
+**Tools**
+
+* phantom?s - easy to install, maintain. It has a grunt plugin.
+* Chrome Telemetry - Python framework that collects a lot of data tha a browser generates. It's hard to setup. Topcaot uses it.
+
+### Monkey Testing
+
+Automated UI testing to try to break the app and discover odd conditions taht produce errors.  See the monkey theorem.
+
+**Tools**
+
+* Gremlins.js
+
+### CSS Regression Testing
+
+The art of testing the cascade.  CSS is declarative language so it must be tested differently. Checking the output is not pure CSS testing.
+
+**Tools**
+
+* csste.st - collection of current techniques and tools available for CSS testing
+* hardy.io - based on selenium, uses gherkin syntax, checks copmuted style.
