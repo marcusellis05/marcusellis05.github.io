@@ -89,3 +89,19 @@ Scripts that are run when something happens in your branch. Can run client- or s
 
 * [git-ci-hooks](http://bit.do/git-ci)
 * [Git Tutorials](http://atlassian.com/git)
+
+------
+
+## Rebooting Flickr on a Node.js Stack, One Page at a Time
+
+*Bertrand Fan, Flickr*
+
+Flickr is currently built with PHP, transitioning to Node.js. They are using Express. The reboot stack sits between the web client and the API.
+
+In production they're running on Mnahattan (sorta like Heroku). 1 Manhattan instance is 1 server running 16-32 Node processes.
+
+They developed a way to bucket users and route them to the new, reboot stack while leaving others on the classic, PHP version of the app.
+
+Apache Traffic Server and cookies to handle routing to classic vs reboot.
+
+UglifyJs can do conditional compilation by evaluating global variables.
