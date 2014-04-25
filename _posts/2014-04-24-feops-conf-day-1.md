@@ -253,8 +253,31 @@ Measure performance. Record performance data with each deploy. Graph it.
 
 *Dusty Jewett, Simply Measured*
 
+Moving to JS modules is worth the investment. Projects w/o deadlines never finish. Deployd.com for a fast REST/MongoDB scaffold.
+
+**Tools**
+
+* [scylla](http://getscylla.com/) - detect visual changes in a web app.
+* PhantomCSS
+* Wraith
+* Photobox
+* Huxley
+* SiteEffect
+
 ------
 
 ## Web Performance Engineers - The Hunt for the Mythical Beast
 
 *Tobias Baldauf, Akamai*
+
+WebPerf Survey Takeaways
+
+* WebPerf is everybody's responsbility
+* Front End Devs want WebPerf Engineers
+* No full WebPerf Automation
+
+> Success with performance starts with the culture: not only make it faster, but als show its impact.
+
+Web Perf Engineers are like Scrum Masters. They own the process, but educate others and share tools that make them obsolete.
+
+We should all own performance as a culture good, not just as a duty. It doesn't belong to just front-end, back-end or QA. It's not a gimmick and shouldn't be viewed as an impediment to be resolved. It's not a problem that can be solved once. It's a continuoudly shifting goal.

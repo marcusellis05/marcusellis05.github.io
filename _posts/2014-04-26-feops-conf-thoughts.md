@@ -1,0 +1,11 @@
+---
+layout: post
+title: FeOpsConf Thoughts & Takeaways
+published: false
+---
+
+I took pretty good notes over the last couple of days ([Day 1](/2014/04/24/feops-conf-day-1/) [Day 2](/2014/04/25/feops-conf-day-2/)). But now I want to synthesize what I learned.
+
+## Visual Image Diffs
+
+## Continuous Integration
