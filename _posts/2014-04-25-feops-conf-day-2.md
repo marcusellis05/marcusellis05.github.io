@@ -111,3 +111,41 @@ Additional considerations for RTL support and Date/Time formatting.
 * [grunt-i18n-abide](https://github.com/mozilla/grunt-i18n-abide) - Grunt task for build translations
 * [R2](https://github.com/ded/R2) - library to automatically switch styles from LTR to RTL
 * [moment.js](http://momentjs.com/) - really good language support
+
+-----
+
+## The Dark Side
+
+*Martin Kleppe, Ubilabs*
+
+[Website](http://aem1k.com/)
+
+-----
+
+## Apps that Talk Back
+
+*Rebecca Murphey, BazaarVoice*
+
+### They keep you from doing bad things
+
+* Git hooks - for enforcing style rules and running tests pre-push
+* Grunt - for running jshint during development
+
+Build assertions into error handling; provides sane error messages.
+
+### They tell when you do a bad thing
+
+Logging errors with more detail, categorization, hashed stack traces.
+
+### Identify things before they are things
+
+Use Istanbul to see what code is actually being executed.
+
+## Help fix the things
+
+Production swallows errors, but a cookie can be set to enable verbose logging at any time.
+
+**Tools**
+
+* [node-jscs](https://github.com/mdevils/node-jscs) - Code style checker
+* [istanbul](https://github.com/gotwarlost/istanbul) - JavaScript code coverage
