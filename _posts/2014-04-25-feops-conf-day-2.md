@@ -46,17 +46,13 @@ Development tools for front end are growing faster than back end and node develo
 
 *Ian Feather, Lonely Planet*
 
-Shared Layer - High reuse, Strong caching, High risk
-
-App Layer - Low reuse, Weak caching, Low risk
-
-Component Lyaer - High reuse, Low risk
+* Shared Layer - High reuse, Strong caching, High risk
+* App Layer - Low reuse, Weak caching, Low risk
+* Component Layer - High reuse, Low risk
 
 A Style Guide isn't the mechanism.
 
-What is a component? Encapsulated template and CSS using BEM.
-
-Benefits
+**Benefits**
 
 * Happier developers
 * Visual consistency
@@ -96,3 +92,22 @@ Know what browsers you support and enforce that thru code/tests.
 * [uncss](https://github.com/giakki/uncss)
 * [dom-prof](https://github.com/josh/dom-prof) - phantomjs crawler
 * [DOM Monster](http://mir.aculo.us/dom-monster/) - bookmarklet
+
+-----
+
+## Continuous Translation
+
+*Burak Yigit Kaya, Disqus*
+
+Community sourced translators.
+
+Translations are dependencies.
+
+Additional considerations for RTL support and Date/Time formatting.
+
+**Tools**
+
+* [Transifex](https://www.transifex.com/) - SaaS translation provider
+* [grunt-i18n-abide](https://github.com/mozilla/grunt-i18n-abide) - Grunt task for build translations
+* [R2](https://github.com/ded/R2) - library to automatically switch styles from LTR to RTL
+* [moment.js](http://momentjs.com/) - really good language support
