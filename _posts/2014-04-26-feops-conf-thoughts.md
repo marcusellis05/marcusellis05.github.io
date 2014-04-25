@@ -9,3 +9,5 @@ I took pretty good notes over the last couple of days ([Day 1](/2014/04/24/feops
 ## Visual Image Diffs
 
 ## Continuous Integration
+
+## Web Performance as a Cultural Good

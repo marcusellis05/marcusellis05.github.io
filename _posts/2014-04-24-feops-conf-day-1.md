@@ -110,7 +110,7 @@ UglifyJs can do conditional compilation by evaluating global variables.
 
 ## The Glitch in the Game
 
-*Sebastian Golash, Deuthce Telekom*
+*Sebastian Golash, Deutsche Telekom*
 
 [http://dalekjs.com/](http://dalekjs.com/)
 
