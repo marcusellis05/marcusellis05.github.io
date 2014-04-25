@@ -141,7 +141,7 @@ Logging errors with more detail, categorization, hashed stack traces.
 
 Use Istanbul to see what code is actually being executed.
 
-## Help fix the things
+### Help fix the things
 
 Production swallows errors, but a cookie can be set to enable verbose logging at any time.
 
@@ -149,3 +149,33 @@ Production swallows errors, but a cookie can be set to enable verbose logging at
 
 * [node-jscs](https://github.com/mdevils/node-jscs) - Code style checker
 * [istanbul](https://github.com/gotwarlost/istanbul) - JavaScript code coverage
+
+-----
+
+## Building a Large Scale Synthetic Performance Lab
+
+*Amiya Gupta, Microsoft*
+
+**Lessons Learned**
+
+1. Synthetic data is fundamentally different from real user data
+1. Focus on consistency
+1. Larger sample size isn't always the answer
+
+Navigation Timing API is supported by most browsers (not Safari).
+
+Benchamrking is instantaneous. Monitoring includes dimension of time and location. Synthetic measurements enable deeper analysis by eliminating variables; trade accuracy for consistency.
+
+Minimum PLT - there's a hard lower limit to how quickly a page could possibly load; no upper limit.
+
+Benchmark Page - Simple HTML page with a few images, no CSS or JS. Simulations against the Benchmark Page tell you what your Minimum PLT is.
+
+Measure -> Analyze -> Improve -> Repeat
+
+Benchmark page can also indicate problems with network and hardware (ie, Latency, Packet Loss, CDN Routing).
+
+Synthetic environments can suffer from cold server cache and DNS timeout.
+
+**Tools**
+
+* [Boomerang](http://yahoo.github.io/boomerang/doc/) - measure webpage performance on client and report back to server.
