@@ -14,6 +14,8 @@ Speed Index - Lower is better. Goal should be under 1000.
 
 Total page size and Number of requests are equally important. Latency has a direct linear correlation to page load time. Latency in wireless is painful.
 
+<!--more-->
+
 Video streaming is bandwidth limited. Web browsing is latency limited.
 
 TCP Slow Start ramps up the amount of data transferred over time.

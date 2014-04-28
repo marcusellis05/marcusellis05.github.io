@@ -8,4 +8,6 @@ author:
 markdown:     redcarpet
 permalink:    pretty
 pygments:     true
+lsi:          true
 paginate:     5
+excerpt_separator: <!--more-->

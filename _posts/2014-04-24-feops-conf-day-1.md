@@ -10,6 +10,8 @@ published: true
 
 What is Front End Ops? Serving web pages/apps is super hard.  FeOps is the collection of things you can do to make serving them easier.  The act of building performance (and dev happiness) in as a default.
 
+<!--more-->
+
 Why? So you can focus on your product.  Mature FeOps benefits the developer.
 
 Speed is the metric we measure by.  Speed of app, speed of ???, speed of development.

@@ -21,3 +21,8 @@
 .colophon p {
   font-size: 0.8em;
 }
+
+.post-date {
+  display: inline;
+  margin: 0;
+}
