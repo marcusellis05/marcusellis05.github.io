@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FeOpsConf Thoughts & Takeaways
+title: FeOpsConf Takeaways & Tools
 published: true
 ---
 
