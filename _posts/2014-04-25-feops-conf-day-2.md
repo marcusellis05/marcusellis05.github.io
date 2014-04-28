@@ -179,3 +179,39 @@ Synthetic environments can suffer from cold server cache and DNS timeout.
 **Tools**
 
 * [Boomerang](http://yahoo.github.io/boomerang/doc/) - measure webpage performance on client and report back to server.
+
+-----
+
+## Introducing RequireJS into a Large Codebase. Delicately.
+
+*Dan Lee & Chris Chen, Yammer*
+
+Shim `require` & `define` to avoid errors on non-RequireJS pages.
+
+Target one controller at a time to progressively add AMD-ification.
+
+**Takeaways**
+
+1. Isolation - find a small slice of your app to start
+2. Iteration - chart out the path from the small slice to the whole pie
+3. Minimize disruption - don't break the dev environment for other parts of the app
+
+"Code in transition is OK."" Developers have a desire for consistency, but innovation necessitates transitional steps.
+
+-----
+
+## It's About People
+
+*Dustan Kasten, Skookum Digital Works*
+
+Time to first commit is critical.
+
+Don't guess it, test it. If it moves, track it. Get charts in front of people.
+
+-----
+
+## Responsibilities of a Front End Operations Engineer
+
+*Rodney Rehm, Deutsche Telekom*
+
+Know your goals before entering negotiations. Start with something small that has big impact. With finite resources, you have to pick your battles.
