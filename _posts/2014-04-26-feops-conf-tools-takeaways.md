@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FeOpsConf Thoughts & Takeaways
-published: false
+published: true
 ---
 
 For some fairly comprehensive notes check out my [Day 1](/2014/04/24/feops-conf-day-1/) and [Day 2](/2014/04/25/feops-conf-day-2/) notes.
