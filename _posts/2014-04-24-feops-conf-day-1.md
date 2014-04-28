@@ -135,7 +135,7 @@ But loading is only one piece. Layout and scroll performance matter.
 **Tools**
 
 * [phantomas](https://github.com/macbre/phantomas) - easy to install, maintain. It has a grunt plugin.
-* Chrome Telemetry - Python framework that collects a lot of data tha a browser generates. It's hard to setup. Topcaot uses it.
+* Chrome Telemetry - Python framework that collects a lot of data tha a browser generates. It's hard to setup. Topcoat uses it.
 
 ### Monkey Testing
 
