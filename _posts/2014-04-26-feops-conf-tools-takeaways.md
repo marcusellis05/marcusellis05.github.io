@@ -8,19 +8,24 @@ For some fairly comprehensive notes check out my [Day 1](/2014/04/24/feops-conf-
 
 ## Takeaways
 
-Lifecycle Logging w/ Cookie for Prod
+#### Lifecycle Logging
 
-Visual Image Diffs
+One concept that was brought up a few times was "lifecycle logging".  This means making your app rather chatty by default; having loads of log, warn & error statements in the code that explain the state of the app at all times. BazaarVoice ships with this logging in production but it is disabled until a specific cookie is set in the browser.  That way when an issue is reported, it's easy t debug in production and get closer to the root cause.
 
-Continuous Integration
+It seems like a good idea but I'm a little concerned about the extra amount of code and what kind of impact that may have on slower/mobile browsers.
 
-Web Performance as a Cultural Good
+#### Visual Image Diffs
 
+It seemed like every other speaker was talking about visual regression tools. But I also think it would be hard to see through the noise.  Most development is going to cause a change and on purpose.  Image diffs might be a useful tool for QA when doing a full app regression, but I'm a little dubious about how helpful they would be to me as a developer.
+
+#### Web Performance as a Cultural Good
+
+This was the big takeaway for me.  Ensuring that your app is a high level of performance is not the responsibility of any one person or department.  Its not front-end's job nor is it QA's or anyone else's.  It should be a cultural value of the organization.  Everyone should know and care about what the goal is and the entire team should work every day to meet/exceed that goal.
 
 
 ## Tools
 
-### Automated Browser Testing
+#### Automated Browser Testing
 
 * [SauceLabs](https://saucelabs.com/)
 * [Testling](https://ci.testling.com/)
@@ -31,7 +36,7 @@ Web Performance as a Cultural Good
 * [phantomas](https://github.com/macbre/phantomas) - easy to install, maintain. It has a grunt plugin.
 * [gremlins.js](https://github.com/marmelab/gremlins.js)
 
-### Visual Regression Tools
+#### Visual Regression Tools
 
 * [scylla](http://getscylla.com/) - detect visual changes in a web app.
 * [PhantomCSS](https://github.com/Huddle/PhantomCSS)
@@ -40,7 +45,7 @@ Web Performance as a Cultural Good
 * [Huxley](https://github.com/facebook/huxley)
 * [SiteEffect](http://siteeffect.io) - can determine what changed and what was only shifted as a side effect of that change. Not released yet.
 
-### Web Application Performance
+#### Web Application Performance
 
 * [WebPageTest](http://webpagetest.org) - tool for measuring page load and request times with webpage thumbnails.
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - best practices for desktop and mobile.
@@ -49,12 +54,12 @@ Web Performance as a Cultural Good
 * [browser-perf](https://github.com/axemclion/browser-perf) - record actions, measure with probes and aggregate with metrics
 * [SpeedCurve](http://speedcurve.com/) - dashboard tool for displaying front-end performance metrics.
 
-### Styleguides and Documentation
+#### Styleguides and Documentation
 
 * [Rizzo](http://rizzo.lonelyplanet.com/styleguide/) - Lonely Planet's styleguide.
 * [Source](http://sourcejs.com) is a front-end documentation engine.
 
-### CSS Testing & Optimization
+#### CSS Testing & Optimization
 
 * [csste.st](http://csste.st) - collection of current techniques and tools available for CSS testing
 * [ucss](https://github.com/operasoftware/ucss)
@@ -63,19 +68,19 @@ Web Performance as a Cultural Good
 * [DOM Monster](http://mir.aculo.us/dom-monster/) - bookmarklet
 * [hardy.io](http://hardy.io) - based on selenium, uses gherkin syntax, checks copmuted style.
 
-### Translations
+#### Translations
 
 * [Transifex](https://www.transifex.com/) - SaaS translation provider
 * [grunt-i18n-abide](https://github.com/mozilla/grunt-i18n-abide) - Grunt task for build translations
 * [R2](https://github.com/ded/R2) - library to automatically switch styles from LTR to RTL
 * [moment.js](http://momentjs.com/) - really good language support
 
-### Code Coverage
+#### Code Coverage
 
 * [istanbul](https://github.com/gotwarlost/istanbul)
 * [coveralls](http://coveralls.io)
 
-### Miscellaneous
+#### Miscellaneous
 
 * [Feature flags](https://github.com/etsy/feature) - Configuration driven access to features and library upgrades with staged rollout to users. Internal first, external piece meal.
 * [Supergrep](https://github.com/etsy/supergrep) - web-based tool for accessing/reading logs.
