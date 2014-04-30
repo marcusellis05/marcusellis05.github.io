@@ -26,3 +26,13 @@
   display: inline;
   margin: 0;
 }
+
+.related {
+  padding: 20px 0 40px;
+  border: solid #eee;
+  border-width: 1px 0;
+}
+
+.comments {
+  padding: 20px 0 40px;
+}

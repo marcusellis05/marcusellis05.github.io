@@ -4,6 +4,7 @@ description:  'Front End Web Developer'
 url:          http://marcusellis05.github.io
 author:
   name:       'Marcus Ellis'
+  username:   'marcusellis05'
   email:      'marcusellis05@gmail.com'
 markdown:     redcarpet
 permalink:    pretty
