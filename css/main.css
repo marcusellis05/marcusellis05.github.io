@@ -24,6 +24,13 @@ h1, h2, h3, h4, h5, h6, a {
 .colophon p {
   font-size: 0.8em;
 }
+.colophon {
+  text-align: center;
+}
+.colophon li {
+  display: inline-block;
+  margin: 0 0.2em;
+}
 
 
 /* Index */
