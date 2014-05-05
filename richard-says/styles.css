@@ -1,0 +1,20 @@
+body {
+  font-size: 12px;  
+}
+#text {
+  position: absolute;
+  left: 5.75em;
+  top: 3em;
+}
+form {
+  background: #F7F7F7;
+  border-top: 1px solid #DDD;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+input {
+  width: 35em;
+}
