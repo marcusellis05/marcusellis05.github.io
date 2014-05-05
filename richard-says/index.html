@@ -2,7 +2,29 @@
 <html>
   <head>
     <title>Richard Lindsey says...</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        font-size: 13px;
+      }
+      #text {
+        position: absolute;
+        left: 5.5em;
+        line-height: 1.75px;
+        top: 3em;
+      }
+      form {
+        background: #F7F7F7;
+        border-top: 1px solid #DDD;
+        padding: 1em;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+      }
+      input {
+        width: 35em;
+      }
+    </style>
   </head>
   <body>
     <img src="bkgd.png" alt="">
@@ -20,13 +42,14 @@
     $(function(){
 
       var base = location.origin + location.pathname + '?'
-        , text = location.search.slice(1)
-        , html = atob(text);
+        , text = location.search.slice(1);
 
       var $text = $('#text')
         , $link = $('#link');
 
-      $text.text(html);
+      if (text){
+        $text.text(atob(text));
+      }
 
       $('form').on('submit', function(e){
         e.preventDefault();
