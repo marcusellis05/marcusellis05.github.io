@@ -44,7 +44,7 @@ Or you can call multiple tasks at once.  I'm not sure why you'd want to.  That's
 
 I've been pretty enamored of using `npm run` scripts lately. They're stupid simple, and they just seem to work. There's some syntax weirdness that you have to mess with if you want to pass arguments to your run tasks, but you likely don't need it.
 
-If you don't know what `npm run` scripts are, now is a good time to go do some reading up on that: https://docs.npmjs.com/cli/run-script
+If you don't know what `npm run` scripts are, now is a good time to go do some reading up on that: (https://docs.npmjs.com/cli/run-script)[https://docs.npmjs.com/cli/run-script]
 
 So this solution is basically running a simplified, one-liner version of the above script but setting it up in your 'package.json' to make it easier to run. You could also create an `npm run` script that is comprised of multiple `npm run` scripts.
 
@@ -82,6 +82,6 @@ Pretty sweet, eh?
 
 ## Links
 
-* http://substack.net/task_automation_with_npm_run
-* http://www.andrewduthie.com/post/running-grunt-tasks-without-grunt-cli
-* https://gist.github.com/marcusellis05/8050184
+* (http://substack.net/task_automation_with_npm_run)[http://substack.net/task_automation_with_npm_run]
+* (http://www.andrewduthie.com/post/running-grunt-tasks-without-grunt-cli)[http://www.andrewduthie.com/post/running-grunt-tasks-without-grunt-cli]
+* (https://gist.github.com/marcusellis05/8050184)[https://gist.github.com/marcusellis05/8050184]
